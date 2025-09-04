@@ -1,16 +1,10 @@
-package uk.ac.nottingham.cryptography;
+package cryptography;
 
 import java.util.Random;
 
 /**
  * Helper methods for converting hexadecimal strings to byte arrays,
  * int arrays, and back.
- * <br/>
- * Used within the test classes to provide most tests as
- * hex strings. May be useful to you in manually testing within
- * main().
- * <br/>
- * Do not edit this class.
  */
 public class HexUtils {
 

@@ -1,4 +1,4 @@
-package uk.ac.nottingham.cryptography;
+package cryptography;
 
 /**
  * Abstract class that defines a Cipher. This class is extended by CASTCipher,
@@ -29,4 +29,5 @@ public abstract class Cipher {
     public abstract void decrypt(byte[] data);
 
 }
+
 

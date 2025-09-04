@@ -3,8 +3,6 @@ package uk.ac.nottingham.cryptography;
 /**
  * Abstract class that defines a Cipher. This class is extended by CASTCipher,
  * and is used primarily within the CipherMode class.
- * <br/>
- * Do not edit this class file.
  */
 public abstract class Cipher {
     private final int blockLength;
@@ -31,3 +29,4 @@ public abstract class Cipher {
     public abstract void decrypt(byte[] data);
 
 }
+

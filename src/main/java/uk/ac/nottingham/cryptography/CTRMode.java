@@ -3,9 +3,6 @@ package uk.ac.nottingham.cryptography;
 /**
  * Implementation of CipherMode that performs encryption and decryption
  * using Counter mode (CTR) with an underlying Cipher.
- * <br/>
- * This class is TWO of TWO primary code files in which you can complete
- * your solution to the coursework.
  */
 public class CTRMode extends CipherMode {
     private byte[] nonce;
@@ -87,3 +84,4 @@ public class CTRMode extends CipherMode {
     }
 
 }
+

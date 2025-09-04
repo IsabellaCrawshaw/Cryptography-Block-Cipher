@@ -1,12 +1,8 @@
-package uk.ac.nottingham.cryptography;
+package cryptography;
 
 /**
  * Abstract class that partially implements a Cipher. This class contains the CAST
  * S-boxes, and contains various stub methods to be implemented in a subclass.
- * <br/>
- * This class is used extensively for the test suite.
- * <br/>
- * Do not edit this class file.
  */
 public abstract class CASTCipher extends Cipher {
     public static final int[] S1 = {0x30fb40d4, 0x9fa0ff0b, 0x6beccd2f, 0x3f258c7a, 0x1e213f2f, 0x9c004dd3, 0x6003e540, 0xcf9fc949,
@@ -175,3 +171,4 @@ public abstract class CASTCipher extends Cipher {
     public abstract void hexadInv(int[] block, int[] Km, int[] Kr, int idx);
 
 }
+

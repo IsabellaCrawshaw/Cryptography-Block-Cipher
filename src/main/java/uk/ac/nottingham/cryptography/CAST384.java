@@ -3,9 +3,6 @@ package uk.ac.nottingham.cryptography;
 /**
  * Implementation of CASTCipher that encrypts and decrypts using the
  * CAST-384 algorithm.
- * <br/>
- * This class is ONE of TWO primary code files in which you can complete
- * your solution to the coursework.
  */
 public class CAST384 extends CASTCipher {
 
@@ -210,3 +207,4 @@ public class CAST384 extends CASTCipher {
 
 
 }
+

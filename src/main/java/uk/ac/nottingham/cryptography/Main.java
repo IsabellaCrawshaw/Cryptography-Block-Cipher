@@ -4,13 +4,6 @@ import java.util.Arrays;
 
 public class Main {
 
-    /**
-     * Entry point when this program is run directly. Not used within
-     * the coursework, but is available for those who would like to
-     * test or debug themselves. Nothing in this file will be marked.
-     *
-     * @param args Command line arguments - not used in this coursework
-     */
     public static void main(String[] args) {
         // Example: create cipher with a zero key, encrypt a zero block
         CASTCipher c384 = new CAST384();
@@ -20,3 +13,4 @@ public class Main {
         // You can add testing code here
     }
 }
+
